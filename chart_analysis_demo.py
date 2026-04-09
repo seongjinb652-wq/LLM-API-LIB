@@ -18,7 +18,7 @@ def create_sample_chart():
     plt.title('Monthly sales', fontsize=16, fontweight='bold')
     plt.xlabel('Month', fontsize=12)
     plt.ylabel('Sold ($1M)', fontsize=12)
-    plt.grid(True, alpha=0.3)
+    plt.grid(True, alpha=0.2)
     plt.tight_layout()
 
     # 이미지를 base64로 변환
